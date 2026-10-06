@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adding Employees</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>New Employees</h1>
+  <div class="form-container">
+    <div class="input-group">
+      <label for="name">Enter Name:</label>
+      <input type="text" id="name" autocomplete="off"/>
+    </div>
+    <div class="input-group">
+      <label for="profession">Enter Profession:</label>
+      <input type="text" id="profession" autocomplete="off" />
+    </div>
+    <div class="input-group">
+      <label for="age">Enter Age:</label>
+      <input type="number" id="age" autocomplete="off"/>
+    </div>
+  </div>
+  <button class="add-btn" id="add-user-btn">Add User</button>
+  <div id="message-container" class="message"></div>
+
+  <h2>Added Employees</h2>
+  <div id="employee-list">
+    <p class="empty-text">You have 0 Employees.</p>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
